@@ -18,7 +18,7 @@ pytorch安装时需要安装带cuda版本的，cuda可能需要单独先安装�
 - query文件夹中是要搜索的行人库，库中样本多了运行会变慢，照片命名格式与market1501保持一致
 - reid中是行人重识别网络(resnet)的模型，配置参数和数据处理等函数
 - utils也是一些处理数据的工具。
-- weights中是训练好的权重。719rank1是resnet的，其他都是yolo的。yolov3 用的是提供的COCO权重。重识别用的是网上下的Market1501数据集、CUHK03数据集和MSMT17数据集进行了联合训练的权重。
+- weights中是训练好的权重。719rank1是resnet的，其他都是yolo的。yolov3 用的是提供的COCO权重。重识别用的是网上下的Market1501数据集、CUHK03数据集和MSMT17数据集进行了联合训练的权重。权重需要提前下载，并放在weights文件夹中，下载链接：https://pan.baidu.com/s/14Op82q_wGHb9TV8WiFLTtg 提取码：prs1
 - model.py是yolo的网络模型。
 - person_find.py是程序总入口。
 - query_get.py用来截取需要重识别的行人库样本。
